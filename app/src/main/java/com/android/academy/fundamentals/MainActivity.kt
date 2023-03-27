@@ -18,8 +18,20 @@ class MainActivity : AppCompatActivity() {
 
     // Переход на следующий экран
     private fun moveToNextScreen() {
+        // Создание интент перехода
         val intent = Intent(this, SecondActivity::class.java)
 
+        // Добавление extra данных в интент
+        val transmittedString = "String to transmit"
+        intent.putExtra(SecondActivity.TRANSMITTED_STRING, transmittedString)
+
+        val transmittedInt = 12
+        intent.putExtra(SecondActivity.TRANSMITTED_INT, transmittedInt)
+
+        val transmittedBoolean = false
+        intent.putExtra(SecondActivity.TRANSMITTED_BOOLEAN, transmittedBoolean)
+
+        // Старт второй Активити
         startActivity(intent)
     }
 }
