@@ -30,34 +30,37 @@
             android:layout_width="wrap_content"
             android:layout_height="@dimen/solution_two_content_box_height"
             android:layout_gravity="end"
-            android:layout_margin="@dimen/space_3x"
+            android:layout_marginEnd="@dimen/space_3x"
             android:background="@color/colorMyRed"
             android:gravity="top"
             android:padding="@dimen/space_3x"
             android:text="@string/solutions_box_two_text"
-            android:textColor="@color/colorWhite" />
+            android:textColor="@color/colorWhite"
+            tools:ignore="TextContrastCheck" />
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="@dimen/solution_two_content_box_height"
+            android:layout_height="@dimen/solution_three_title_height"
             android:layout_gravity="center"
             android:layout_margin="@dimen/space_3x"
             android:background="@color/colorMyYellow"
             android:gravity="center_vertical"
             android:padding="@dimen/space_3x"
             android:text="@string/solutions_box_three_text"
-            android:textColor="@color/colorWhite" />
+            android:textColor="@color/colorWhite"
+            tools:ignore="TextContrastCheck" />
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="@dimen/solution_two_content_box_height"
+            android:layout_height="@dimen/solution_three_title_height"
             android:layout_gravity="start"
             android:layout_margin="@dimen/space_3x"
             android:background="@color/colorMyGreen"
             android:gravity="bottom"
             android:padding="@dimen/space_3x"
             android:text="@string/solutions_box_three_text"
-            android:textColor="@color/colorWhite" />
+            android:textColor="@color/colorWhite"
+            tools:ignore="TextContrastCheck" />
 
     </LinearLayout>
 
@@ -70,7 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_margin="@dimen/space_3x"
+            android:layout_marginEnd="@dimen/space_3x"
             android:layout_weight="1"
             android:background="@color/colorLightGray"
             android:gravity="start"
@@ -92,7 +95,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_margin="@dimen/space_3x"
+            android:layout_marginStart="@dimen/space_3x"
             android:layout_weight="2"
             android:background="@color/colorLightGray"
             android:gravity="end"
